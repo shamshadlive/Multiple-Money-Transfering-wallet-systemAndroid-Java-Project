@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "421619803298",
+    "project_id": "parent-wallet",
+    "storage_bucket": "parent-wallet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:421619803298:android:d628a5e5d3383759b763fb",
+        "android_client_info": {
+          "package_name": "com.shamshadlive.ParentApplicationv4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "421619803298-qt6jq5cdm084noqtaevftttod8tc0mbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shamshadlive.ParentApplicationv4",
+            "certificate_hash": "d6b802bed2b0870a9f9545c878259223ff906a7f"
+          }
+        },
+        {
+          "client_id": "421619803298-8ta33m3bdlqj8bc4f9ba36nov6h644pf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzaMKJM-bgpuh_OmnJgq41SksSPpUWgFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "421619803298-8ta33m3bdlqj8bc4f9ba36nov6h644pf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

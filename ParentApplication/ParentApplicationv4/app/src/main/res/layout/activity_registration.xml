@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/persianBlue"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create New Account"
+                android:textColor="@color/white"
+                android:paddingStart="20dp"
+                android:fontFamily="@font/robotobold"
+                android:textSize="25sp"
+                android:layout_gravity="left"/>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="380dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+
+                    <EditText
+                        android:id="@+id/edt_Regparentfname"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="First Name"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_Regparentlname"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Last Name"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+                    <EditText
+                        android:id="@+id/edt_RegparentUsername"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Username"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_RegparentPassword"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+
+
+                    <EditText
+                        android:id="@+id/edt_RegparentEmail"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Email"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_Regparentmobile"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:inputType="numberSigned"
+                        android:hint="Mobile Number"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_Regparentadhaar"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:inputType="numberSigned"
+                        android:hint="Adhaar No"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_upiPin"
+                        android:layout_width="280dp"
+                        android:layout_height="35dp"
+                        android:layout_margin="20dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:inputType="numberSigned"
+                        android:hint="Enter Upi Pin"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+
+
+
+                    <Button
+                        android:id="@+id/btn_register"
+                        android:layout_width="280dp"
+                        android:background="@color/persianBlue"
+                        android:textColor="@color/white"
+                        android:layout_height="40dp"
+                        android:layout_margin="10dp"
+                        android:layout_gravity="center"
+                        android:text="Register Now"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingEnd="10dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="Already have a account ?"
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
+                            <TextView
+                                android:id="@+id/btn_userlogin"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="12sp"
+                                android:text="  Login Here"
+                                android:textStyle="bold"
+                                android:textColor="@color/persianBlue"
+                                android:clickable="true"/>
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </View>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

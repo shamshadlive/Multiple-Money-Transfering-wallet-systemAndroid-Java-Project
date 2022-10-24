@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChildInterfaceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="10dp"
+                android:src="@drawable/ic_userdp"
+                app:tint="@color/persianBlue"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/persianBlue"
+                app:cardCornerRadius="10dp">
+
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+
+                       <LinearLayout
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:layout_weight="1.5">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Name :"
+                               android:textSize="20sp"
+                               android:textColor="@color/white"
+                               android:layout_margin="20dp"/>
+
+
+
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:layout_weight="3">
+
+
+                           <TextView
+                               android:id="@+id/txt_childviewname"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text=""
+                               android:textSize="20sp"
+                               android:textColor="@color/white"
+                               android:layout_margin="20dp"/>
+
+
+
+                       </LinearLayout>
+
+
+
+
+                   </LinearLayout>
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:orientation="horizontal">
+
+
+                       <LinearLayout
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:layout_weight="0.6">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text="Username :"
+                               android:textSize="20sp"
+                               android:textColor="@color/white"
+                               android:layout_margin="20dp"/>
+
+
+
+                       </LinearLayout>
+
+                       <LinearLayout
+                           android:layout_width="0dp"
+                           android:layout_height="wrap_content"
+                           android:orientation="horizontal"
+                           android:layout_weight="1">
+
+
+                           <TextView
+
+                               android:id="@+id/txt_childviewusername"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:text=""
+                               android:textSize="20sp"
+                               android:textColor="@color/white"
+                               android:layout_margin="20dp"/>
+
+
+
+                       </LinearLayout>
+
+
+
+
+
+
+                   </LinearLayout>
+
+
+                  <androidx.cardview.widget.CardView
+                      android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:layout_margin="24dp"
+                      app:cardCornerRadius="10dp">
+
+                      <LinearLayout
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+
+                          <TextView
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:text="Current Balance :"
+                              android:textSize="20sp"
+                              android:layout_gravity="center"
+
+                              android:layout_marginTop="10dp"/>
+
+                          <TextView
+                              android:id="@+id/txt_childviewbalance"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                              android:textColor="@color/black"
+                              android:text="0 ₹"
+                              android:textSize="80sp"
+                              android:layout_gravity="center"
+                              android:textStyle="bold"
+                              android:layout_marginTop="0dp"/>
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal">
+
+
+                              <ImageView
+                                  android:id="@+id/btn_childviewaddmoney"
+                                  android:clickable="true"
+                                  android:layout_weight="1"
+                                  android:layout_width="50dp"
+                                  android:layout_height="50dp"
+                                  android:layout_margin="10dp"
+                                  android:src="@drawable/ic_addmoney"
+                                  app:tint="@color/black" />
+
+                              <ImageView
+                                  android:id="@+id/btn_childviewtransactions"
+                                  android:clickable="true"
+                                  android:layout_weight="1"
+                                  android:layout_gravity="center"
+                                  android:layout_width="50dp"
+                                  android:layout_height="50dp"
+                                  android:layout_margin="10dp"
+                                  android:src="@drawable/ic_transactions"
+                                  app:tint="@color/black" />
+
+
+
+
+
+                          </LinearLayout>
+
+                          <LinearLayout
+                              android:layout_width="match_parent"
+                              android:layout_height="match_parent"
+                              android:orientation="horizontal">
+
+
+                              <TextView
+
+                                  android:layout_weight="1"
+                                  android:layout_width="0dp"
+                                  android:layout_height="match_parent"
+                                  android:layout_marginStart="50dp"
+                                 android:text="Add Money"
+                                  android:textStyle="bold"
+                                  android:textSize="20sp"
+                                  android:textColor="@color/black"/>
+
+                              <TextView
+
+                                  android:layout_weight="1"
+                                  android:layout_width="0dp"
+                                  android:layout_height="wrap_content"
+                                  android:layout_marginStart="10dp"
+                                  android:text="Transactions"
+                                  android:textStyle="bold"
+                                  android:textSize="20sp"
+                                  android:textColor="@color/black"/>
+
+
+
+                          </LinearLayout>
+
+
+                          <Button
+                              android:id="@+id/btn_childviewremovechild"
+                              android:layout_width="match_parent"
+                              android:layout_height="60dp"
+                              android:text="Remove Child"
+                              android:textSize="20sp"
+
+                              android:backgroundTint="#FF0000"
+                              android:textColor="#FFFFFF"
+                              android:textStyle="bold"
+                              android:layout_margin="20dp"
+                              android:textAllCaps="false"/>
+
+                      </LinearLayout>
+
+
+
+                  </androidx.cardview.widget.CardView>
+
+
+
+
+
+               </LinearLayout>
+
+
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <Button
+                android:id="@+id/btn_childviewgohome"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="Go Home"
+                android:textSize="20sp"
+                android:backgroundTint="@color/persianBlue"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

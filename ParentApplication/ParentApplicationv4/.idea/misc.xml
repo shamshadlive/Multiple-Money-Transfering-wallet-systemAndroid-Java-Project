@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/drawable/ic_baseline_qr_code_scanner_24.xml" value="0.182" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/drawable/ic_baseline_warning_24.xml" value="0.182" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/drawable/shape_circle.xml" value="0.182" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/drawable/solid_bagroundhome.xml" value="0.2395" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_add_money.xml" value="0.19947916666666668" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_addchild.xml" value="0.2" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_check.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_child_in_add_money.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_child_in_transaction.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_childinterface.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_qrcode_scanner.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_recievemoney.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_registration.xml" value="0.2" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_sendmoney.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/activity_transactions.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/bottom_sheet_employee_scanner_id.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/childitem.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/dialog_alert.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/dialog_progress.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/dialog_single_action_alert.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/dialog_single_action_sucess.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/dialog_success.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/layout/transactionitem.xml" value="0.17804054054054055" />
+        <entry key="..\:/My project/ParentApplicationv4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.182" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

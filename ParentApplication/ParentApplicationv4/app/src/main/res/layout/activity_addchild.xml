@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/persianBlue"
+    >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:gravity="center">
+
+
+
+z
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/white"
+                android:layout_gravity="center_horizontal"
+                app:cardCornerRadius="20dp"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="20dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Add New Child"
+                           android:paddingStart="10dp"
+                            android:textColor="@color/black"
+                            android:fontFamily="@font/robotobold"
+                            android:textSize="20sp"
+                            android:layout_marginStart="20dp"
+                            android:layout_gravity="center_vertical"/>
+
+                        <ImageView
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/ic_newuser"
+                            />
+
+                    </LinearLayout>
+
+
+
+
+                    <EditText
+                        android:id="@+id/edt_addchildfname"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="First Name"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+                    <EditText
+                        android:id="@+id/edt_addchildlname"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Last name"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+                    <EditText
+                        android:id="@+id/edt_addchildlusername"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Username"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+                    <EditText
+                        android:id="@+id/edt_addchildPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Password"
+                        android:inputType="textPassword"
+                        android:textSize="15sp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+
+
+                    <EditText
+                        android:id="@+id/edt_addchildAdhaar"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Adhaar Number"
+                        android:textSize="15sp"
+                        android:inputType="numberSigned"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Email ID"
+                        android:textSize="15sp"
+                        android:inputType="text"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+                    <EditText
+                        android:id="@+id/edt_mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Mobile Number"
+                        android:textSize="15sp"
+                        android:inputType="numberSigned"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical">
+
+                        <EditText
+                            android:clickable="true"
+                            android:id="@+id/edt_addchildDob"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:layout_margin="10dp"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:hint="Date Of Birth"
+
+                            android:textSize="15sp"
+                            android:layout_gravity="center"
+                            android:background="@drawable/edittext_bg"
+                            android:fontFamily="@font/robotobold"
+                            android:textStyle="italic"
+                            />
+
+                        <ImageView
+
+                            android:id="@+id/btn_datechoose"
+                            android:layout_gravity="center_vertical|end"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/ic_date"/>
+
+
+                    </FrameLayout>
+
+
+                    <EditText
+                        android:id="@+id/edt_ChildupiPIn"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_margin="10dp"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:hint="Enter Upi PIn"
+                        android:textSize="15sp"
+                        android:inputType="numberSigned"
+                        android:layout_gravity="center"
+                        android:background="@drawable/edittext_bg"
+                        android:fontFamily="@font/robotobold"
+                        android:textStyle="italic"/>
+
+
+
+                    <Button
+                        android:id="@+id/btn_addChild"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:layout_gravity="center"
+                        android:text="Add Now"
+                        android:textSize="15sp"
+                        android:textStyle="bold"
+                        android:backgroundTint="@color/persianBlue"
+                        android:textColor="@color/white"/>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingEnd="10dp">
+
+                            <Button
+                                android:id="@+id/btn_goback"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:text="Cancel"
+                                android:textColor="@color/persianBlue"
+                                android:textSize="10sp"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
